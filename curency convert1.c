@@ -35,8 +35,7 @@ int main() {
     double amount, converted;
     char from[10], to[10];
 
-    // Example static rates (for simplicity)
-    // 1 USD = 110 BDT, 1 EUR = 120 BDT, 1 INR = 1.35 BDT
+   
     const double USD_to_BDT = 110.0;
     const double EUR_to_BDT = 120.0;
     const double INR_to_BDT = 1.35;
@@ -118,3 +117,4 @@ int main() {
 
     return 0;
 }
+
